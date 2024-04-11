@@ -1,0 +1,48 @@
+Title: Guide to Exporting HTML Tables to Excel in React with exceljs
+
+Subtitle: Discover how to effortlessly export HTML tables from your React app with the power of exceljs.
+
+I recently had a requirement in a project to export HTML tables to Excel.
+I was using React (Next.js to be precise) and wanted to find a way to export HTML tables to Excel.
+I found a library called exceljs that allows you to export HTML tables to Excel.
+In this guide, We'll break down each step, from installation and configuration to styling your exported data and adding formulae to it.
+
+Prerequisites
+
+- A basic understanding of React and JavaScript.
+- Node.js and a package manager like npm installed on your system.
+- Optional: Basic understanding of TypeScript as all of the code is in TypeScript but even if you don't know TypeScript you'll still be able to understand the code.
+- Optional: Basic understanding of Next.js as we will be using Next for this guide but even if you have never used Next, you'll still be able to understand the code as long as you have an understanding of React and JavaScript.
+
+Setting up the project
+
+1. Let's start by creating a new Next.js project. You can do this by running the following command in your terminal:
+
+npx create-next-app
+
+2. Next, we need to install the exceljs package. This package is a excel workbook manager which is the MVP of this guide. You can install it by running the following command in your terminal:
+
+npm install exceljs
+
+Now that our project is set up, let's start writing some code.
+
+Creating Table data
+
+Before we export the table to Excel, we need to create some table data. For this guide, we'll create some simple tables with some dummy data that is interrelated to each other.
+Let's create a 'data' folder in the root of our project and create a file called 'tableData.ts' inside it. Add the following code to the file:
+
+Rendering the tables
+
+Now that we have our table data, let's create a component that will render the tables. Create a new file called 'Table.tsx' inside the 'components' folder in the root of your project and add the following code to it:
+
+Converting to Excel
+
+Let's create a function that will convert our HTML tables to Excel. Create a new file called 'convertToExcel.ts' in the 'utils' folder in the root of the project.
+
+Conclusion
+
+
+
+
+
+
